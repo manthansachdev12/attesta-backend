@@ -19,7 +19,7 @@ const app = express();
 /* ===== CORS ===== */
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://attesta.vercel.app",
+  "https://attesta-frontend.vercel.app",
 ];
 
 app.use(
